@@ -1,0 +1,13 @@
+Causal_Narrator_PRD.md
+*.log
+__pycache__/
+.env
+.DS_Store
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+node_modules/
+dist/
+build/

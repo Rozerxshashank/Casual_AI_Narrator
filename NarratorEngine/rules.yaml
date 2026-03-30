@@ -1,0 +1,19 @@
+- cause: Thermal Stress Event
+  effect: Population Collapse Event
+  confidence: 0.9
+  description: High temperatures lead to coral bleaching and subsequent population decline.
+
+- cause: Acidification Event
+  effect: Population Collapse Event
+  confidence: 0.8
+  description: Low pH levels weaken coral skeletons, increasing mortality rates.
+
+- cause: v_temp
+  effect: Thermal Stress Event
+  confidence: 1.0
+  description: Temperature exceeding 30.0 Celsius directly triggers thermal stress.
+
+- cause: v_ph
+  effect: Acidification Event
+  confidence: 1.0
+  description: pH dropping below 7.85 directly triggers acidification.

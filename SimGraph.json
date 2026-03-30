@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "run_id": "SIM-2026-001",
+    "scenario": "Coral Reef Survival",
+    "engine_version": "1.0",
+    "start_year": 0,
+    "end_year": 10
+  },
+  "variables": [
+    {
+      "id": "v_temp",
+      "name": "Sea Surface Temperature",
+      "unit": "Celsius",
+      "series": [
+        {
+          "timestep": 0,
+          "value": 28.2
+        },
+        {
+          "timestep": 1,
+          "value": 28.5
+        },
+        {
+          "timestep": 2,
+          "value": 28.8
+        },
+        {
+          "timestep": 3,
+          "value": 29.1
+        },
+        {
+          "timestep": 4,
+          "value": 29.5
+        },
+        {
+          "timestep": 5,
+          "value": 31.2
+        },
+        {
+          "timestep": 6,
+          "value": 31.5
+        },
+        {
+          "timestep": 7,
+          "value": 30.8
+        },
+        {
+          "timestep": 8,
+          "value": 29.2
+        },
+        {
+          "timestep": 9,
+          "value": 28.9
+        },
+        {
+          "timestep": 10,
+          "value": 28.7
+        }
+      ]
+    },
+    {
+      "id": "v_ph",
+      "name": "Oceanic pH",
+      "unit": "pH",
+      "series": [
+        {
+          "timestep": 0,
+          "value": 8.2
+        },
+        {
+          "timestep": 1,
+          "value": 8.1
+        },
+        {
+          "timestep": 2,
+          "value": 8.1
+        },
+        {
+          "timestep": 3,
+          "value": 8.0
+        },
+        {
+          "timestep": 4,
+          "value": 7.9
+        },
+        {
+          "timestep": 5,
+          "value": 7.8
+        },
+        {
+          "timestep": 6,
+          "value": 7.7
+        },
+        {
+          "timestep": 7,
+          "value": 7.7
+        },
+        {
+          "timestep": 8,
+          "value": 7.8
+        },
+        {
+          "timestep": 9,
+          "value": 7.9
+        },
+        {
+          "timestep": 10,
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "id": "v_coral",
+      "name": "Coral Population",
+      "unit": "Percentage",
+      "series": [
+        {
+          "timestep": 0,
+          "value": 100.0
+        },
+        {
+          "timestep": 1,
+          "value": 98.5
+        },
+        {
+          "timestep": 2,
+          "value": 97.0
+        },
+        {
+          "timestep": 3,
+          "value": 95.2
+        },
+        {
+          "timestep": 4,
+          "value": 92.8
+        },
+        {
+          "timestep": 5,
+          "value": 75.4
+        },
+        {
+          "timestep": 6,
+          "value": 60.2
+        },
+        {
+          "timestep": 7,
+          "value": 52.1
+        },
+        {
+          "timestep": 8,
+          "value": 48.5
+        },
+        {
+          "timestep": 9,
+          "value": 45.2
+        },
+        {
+          "timestep": 10,
+          "value": 46.8
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event_temp_5",
+      "type": "Thermal Stress Event",
+      "timestep": 5,
+      "variable_id": "v_temp",
+      "trigger_value": 31.2,
+      "threshold": 30.0
+    },
+    {
+      "id": "event_ph_5",
+      "type": "Acidification Event",
+      "timestep": 5,
+      "variable_id": "v_ph",
+      "trigger_value": 7.8,
+      "threshold": 7.85
+    },
+    {
+      "id": "event_temp_6",
+      "type": "Thermal Stress Event",
+      "timestep": 6,
+      "variable_id": "v_temp",
+      "trigger_value": 31.5,
+      "threshold": 30.0
+    },
+    {
+      "id": "event_ph_6",
+      "type": "Acidification Event",
+      "timestep": 6,
+      "variable_id": "v_ph",
+      "trigger_value": 7.7,
+      "threshold": 7.85
+    },
+    {
+      "id": "event_temp_7",
+      "type": "Thermal Stress Event",
+      "timestep": 7,
+      "variable_id": "v_temp",
+      "trigger_value": 30.8,
+      "threshold": 30.0
+    },
+    {
+      "id": "event_ph_7",
+      "type": "Acidification Event",
+      "timestep": 7,
+      "variable_id": "v_ph",
+      "trigger_value": 7.7,
+      "threshold": 7.85
+    },
+    {
+      "id": "event_ph_8",
+      "type": "Acidification Event",
+      "timestep": 8,
+      "variable_id": "v_ph",
+      "trigger_value": 7.8,
+      "threshold": 7.85
+    },
+    {
+      "id": "event_coral_8",
+      "type": "Population Collapse Event",
+      "timestep": 8,
+      "variable_id": "v_coral",
+      "trigger_value": 48.5,
+      "threshold": 50.0
+    },
+    {
+      "id": "event_coral_9",
+      "type": "Population Collapse Event",
+      "timestep": 9,
+      "variable_id": "v_coral",
+      "trigger_value": 45.2,
+      "threshold": 50.0
+    },
+    {
+      "id": "event_coral_10",
+      "type": "Population Collapse Event",
+      "timestep": 10,
+      "variable_id": "v_coral",
+      "trigger_value": 46.8,
+      "threshold": 50.0
+    }
+  ],
+  "data_gaps": []
+}

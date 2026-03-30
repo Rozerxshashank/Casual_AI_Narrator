@@ -1,0 +1,677 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 0,
+      "value": 28.2,
+      "label": "Sea Surface Temperature at Year 0",
+      "id": "v_temp_0"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 1,
+      "value": 28.5,
+      "label": "Sea Surface Temperature at Year 1",
+      "id": "v_temp_1"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 2,
+      "value": 28.8,
+      "label": "Sea Surface Temperature at Year 2",
+      "id": "v_temp_2"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 3,
+      "value": 29.1,
+      "label": "Sea Surface Temperature at Year 3",
+      "id": "v_temp_3"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 4,
+      "value": 29.5,
+      "label": "Sea Surface Temperature at Year 4",
+      "id": "v_temp_4"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 5,
+      "value": 31.2,
+      "label": "Sea Surface Temperature at Year 5",
+      "id": "v_temp_5"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 6,
+      "value": 31.5,
+      "label": "Sea Surface Temperature at Year 6",
+      "id": "v_temp_6"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 7,
+      "value": 30.8,
+      "label": "Sea Surface Temperature at Year 7",
+      "id": "v_temp_7"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 8,
+      "value": 29.2,
+      "label": "Sea Surface Temperature at Year 8",
+      "id": "v_temp_8"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 9,
+      "value": 28.9,
+      "label": "Sea Surface Temperature at Year 9",
+      "id": "v_temp_9"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_temp",
+      "timestep": 10,
+      "value": 28.7,
+      "label": "Sea Surface Temperature at Year 10",
+      "id": "v_temp_10"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 0,
+      "value": 8.2,
+      "label": "Oceanic pH at Year 0",
+      "id": "v_ph_0"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 1,
+      "value": 8.1,
+      "label": "Oceanic pH at Year 1",
+      "id": "v_ph_1"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 2,
+      "value": 8.1,
+      "label": "Oceanic pH at Year 2",
+      "id": "v_ph_2"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 3,
+      "value": 8.0,
+      "label": "Oceanic pH at Year 3",
+      "id": "v_ph_3"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 4,
+      "value": 7.9,
+      "label": "Oceanic pH at Year 4",
+      "id": "v_ph_4"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 5,
+      "value": 7.8,
+      "label": "Oceanic pH at Year 5",
+      "id": "v_ph_5"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 6,
+      "value": 7.7,
+      "label": "Oceanic pH at Year 6",
+      "id": "v_ph_6"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 7,
+      "value": 7.7,
+      "label": "Oceanic pH at Year 7",
+      "id": "v_ph_7"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 8,
+      "value": 7.8,
+      "label": "Oceanic pH at Year 8",
+      "id": "v_ph_8"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 9,
+      "value": 7.9,
+      "label": "Oceanic pH at Year 9",
+      "id": "v_ph_9"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_ph",
+      "timestep": 10,
+      "value": 8.0,
+      "label": "Oceanic pH at Year 10",
+      "id": "v_ph_10"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 0,
+      "value": 100.0,
+      "label": "Coral Population at Year 0",
+      "id": "v_coral_0"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 1,
+      "value": 98.5,
+      "label": "Coral Population at Year 1",
+      "id": "v_coral_1"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 2,
+      "value": 97.0,
+      "label": "Coral Population at Year 2",
+      "id": "v_coral_2"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 3,
+      "value": 95.2,
+      "label": "Coral Population at Year 3",
+      "id": "v_coral_3"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 4,
+      "value": 92.8,
+      "label": "Coral Population at Year 4",
+      "id": "v_coral_4"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 5,
+      "value": 75.4,
+      "label": "Coral Population at Year 5",
+      "id": "v_coral_5"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 6,
+      "value": 60.2,
+      "label": "Coral Population at Year 6",
+      "id": "v_coral_6"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 7,
+      "value": 52.1,
+      "label": "Coral Population at Year 7",
+      "id": "v_coral_7"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 8,
+      "value": 48.5,
+      "label": "Coral Population at Year 8",
+      "id": "v_coral_8"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 9,
+      "value": 45.2,
+      "label": "Coral Population at Year 9",
+      "id": "v_coral_9"
+    },
+    {
+      "type": "variable",
+      "variable_id": "v_coral",
+      "timestep": 10,
+      "value": 46.8,
+      "label": "Coral Population at Year 10",
+      "id": "v_coral_10"
+    },
+    {
+      "type": "event",
+      "event_type": "Thermal Stress Event",
+      "timestep": 5,
+      "variable_id": "v_temp",
+      "label": "Thermal Stress Event (Year 5)",
+      "id": "event_temp_5"
+    },
+    {
+      "type": "event",
+      "event_type": "Acidification Event",
+      "timestep": 5,
+      "variable_id": "v_ph",
+      "label": "Acidification Event (Year 5)",
+      "id": "event_ph_5"
+    },
+    {
+      "type": "event",
+      "event_type": "Thermal Stress Event",
+      "timestep": 6,
+      "variable_id": "v_temp",
+      "label": "Thermal Stress Event (Year 6)",
+      "id": "event_temp_6"
+    },
+    {
+      "type": "event",
+      "event_type": "Acidification Event",
+      "timestep": 6,
+      "variable_id": "v_ph",
+      "label": "Acidification Event (Year 6)",
+      "id": "event_ph_6"
+    },
+    {
+      "type": "event",
+      "event_type": "Thermal Stress Event",
+      "timestep": 7,
+      "variable_id": "v_temp",
+      "label": "Thermal Stress Event (Year 7)",
+      "id": "event_temp_7"
+    },
+    {
+      "type": "event",
+      "event_type": "Acidification Event",
+      "timestep": 7,
+      "variable_id": "v_ph",
+      "label": "Acidification Event (Year 7)",
+      "id": "event_ph_7"
+    },
+    {
+      "type": "event",
+      "event_type": "Acidification Event",
+      "timestep": 8,
+      "variable_id": "v_ph",
+      "label": "Acidification Event (Year 8)",
+      "id": "event_ph_8"
+    },
+    {
+      "type": "event",
+      "event_type": "Population Collapse Event",
+      "timestep": 8,
+      "variable_id": "v_coral",
+      "label": "Population Collapse Event (Year 8)",
+      "id": "event_coral_8"
+    },
+    {
+      "type": "event",
+      "event_type": "Population Collapse Event",
+      "timestep": 9,
+      "variable_id": "v_coral",
+      "label": "Population Collapse Event (Year 9)",
+      "id": "event_coral_9"
+    },
+    {
+      "type": "event",
+      "event_type": "Population Collapse Event",
+      "timestep": 10,
+      "variable_id": "v_coral",
+      "label": "Population Collapse Event (Year 10)",
+      "id": "event_coral_10"
+    }
+  ],
+  "edges": [
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_0",
+      "target": "v_temp_1"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_1",
+      "target": "v_temp_2"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_2",
+      "target": "v_temp_3"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_3",
+      "target": "v_temp_4"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_4",
+      "target": "v_temp_5"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "Temperature exceeding 30.0 Celsius directly triggers thermal stress.",
+      "source": "v_temp_4",
+      "target": "event_temp_5"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_5",
+      "target": "v_temp_6"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "Temperature exceeding 30.0 Celsius directly triggers thermal stress.",
+      "source": "v_temp_5",
+      "target": "event_temp_5"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "Temperature exceeding 30.0 Celsius directly triggers thermal stress.",
+      "source": "v_temp_5",
+      "target": "event_temp_6"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_6",
+      "target": "v_temp_7"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "Temperature exceeding 30.0 Celsius directly triggers thermal stress.",
+      "source": "v_temp_6",
+      "target": "event_temp_6"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "Temperature exceeding 30.0 Celsius directly triggers thermal stress.",
+      "source": "v_temp_6",
+      "target": "event_temp_7"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_7",
+      "target": "v_temp_8"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "Temperature exceeding 30.0 Celsius directly triggers thermal stress.",
+      "source": "v_temp_7",
+      "target": "event_temp_7"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_8",
+      "target": "v_temp_9"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_temp_9",
+      "target": "v_temp_10"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_0",
+      "target": "v_ph_1"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_1",
+      "target": "v_ph_2"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_2",
+      "target": "v_ph_3"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_3",
+      "target": "v_ph_4"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_4",
+      "target": "v_ph_5"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "pH dropping below 7.85 directly triggers acidification.",
+      "source": "v_ph_4",
+      "target": "event_ph_5"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_5",
+      "target": "v_ph_6"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "pH dropping below 7.85 directly triggers acidification.",
+      "source": "v_ph_5",
+      "target": "event_ph_5"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "pH dropping below 7.85 directly triggers acidification.",
+      "source": "v_ph_5",
+      "target": "event_ph_6"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_6",
+      "target": "v_ph_7"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "pH dropping below 7.85 directly triggers acidification.",
+      "source": "v_ph_6",
+      "target": "event_ph_6"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "pH dropping below 7.85 directly triggers acidification.",
+      "source": "v_ph_6",
+      "target": "event_ph_7"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_7",
+      "target": "v_ph_8"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "pH dropping below 7.85 directly triggers acidification.",
+      "source": "v_ph_7",
+      "target": "event_ph_7"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "pH dropping below 7.85 directly triggers acidification.",
+      "source": "v_ph_7",
+      "target": "event_ph_8"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_8",
+      "target": "v_ph_9"
+    },
+    {
+      "type": "causal",
+      "weight": 1.0,
+      "description": "pH dropping below 7.85 directly triggers acidification.",
+      "source": "v_ph_8",
+      "target": "event_ph_8"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_ph_9",
+      "target": "v_ph_10"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_0",
+      "target": "v_coral_1"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_1",
+      "target": "v_coral_2"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_2",
+      "target": "v_coral_3"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_3",
+      "target": "v_coral_4"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_4",
+      "target": "v_coral_5"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_5",
+      "target": "v_coral_6"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_6",
+      "target": "v_coral_7"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_7",
+      "target": "v_coral_8"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_8",
+      "target": "v_coral_9"
+    },
+    {
+      "type": "trigger",
+      "weight": 1.0,
+      "source": "v_coral_8",
+      "target": "event_coral_8"
+    },
+    {
+      "type": "continuity",
+      "weight": 1.0,
+      "source": "v_coral_9",
+      "target": "v_coral_10"
+    },
+    {
+      "type": "trigger",
+      "weight": 1.0,
+      "source": "v_coral_9",
+      "target": "event_coral_9"
+    },
+    {
+      "type": "trigger",
+      "weight": 1.0,
+      "source": "v_coral_10",
+      "target": "event_coral_10"
+    },
+    {
+      "type": "causal",
+      "weight": 0.9,
+      "description": "High temperatures lead to coral bleaching and subsequent population decline.",
+      "source": "event_temp_7",
+      "target": "event_coral_8"
+    },
+    {
+      "type": "causal",
+      "weight": 0.8,
+      "description": "Low pH levels weaken coral skeletons, increasing mortality rates.",
+      "source": "event_ph_7",
+      "target": "event_coral_8"
+    },
+    {
+      "type": "causal",
+      "weight": 0.8,
+      "description": "Low pH levels weaken coral skeletons, increasing mortality rates.",
+      "source": "event_ph_8",
+      "target": "event_coral_8"
+    },
+    {
+      "type": "causal",
+      "weight": 0.8,
+      "description": "Low pH levels weaken coral skeletons, increasing mortality rates.",
+      "source": "event_ph_8",
+      "target": "event_coral_9"
+    }
+  ]
+}
